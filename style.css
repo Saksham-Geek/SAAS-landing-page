@@ -1,0 +1,426 @@
+/* POPPINS FONT FAMILY */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: #7030cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.nav-items{
+    display: flex;
+}
+.navitem{
+    margin-left: 3rem;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-btn{
+    padding: 0.8rem 2rem;
+    background-color: #1bbcef;
+    border: none;
+    color: white;
+}
+main{
+    display: flex;
+    background-color: #7030cc;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.main-img{
+    width: 40rem;
+    margin-bottom: 4rem;
+}
+.left h1{
+    margin: 3rem;
+    font-size: 4rem;
+}
+.left p{
+    margin: 3rem;
+    width: 70%;
+    font-size: 1.3rem;
+}
+
+/* Main 2 section */
+
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.main2-img{
+    width: 35rem;
+}
+.heading{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+}
+.main-data{
+    width: 50%;
+    margin-top: 3rem;
+}
+.data>h2{
+    margin-bottom: 1rem;
+}
+.data>h2::before{
+
+}
+.data{
+    margin-bottom: 1.5rem;
+}
+
+/* main 3 -- features */
+.main3{
+    height: 30rem ;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-basis:0;
+    flex-grow: 1;
+    margin-top: 4rem;
+}
+.card{
+    background-color: #f2f2f2;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    height: 15rem;
+    width: 15rem;
+    box-shadow: #7030cc 0px 5px 15px;
+    border-radius: 15px;
+    text-align: center;
+}
+.card-one img{
+ position: relative;
+ bottom: 3.7rem;
+ left: -.5rem;
+
+}
+.card-two img{
+ position: relative;
+ bottom: 3.6rem;
+ left: -.5rem;
+
+}
+.card-three img{
+ position: relative;
+ bottom: 3.6rem;
+ left: -.4rem;
+
+}
+.card-four img{
+ position: relative;
+ bottom: 3.6rem;
+ left: -.4rem;
+
+}
+
+
+.icon-bg{
+    background-color:#dbc1ff;
+    margin-left: 4.6rem;
+    margin-top: 1rem;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    z-index: 4;
+}
+
+.heading3{
+    font-size: 2rem;
+    text-align: center;
+}
+.main3 img{
+    width: 40px;
+}
+
+
+.card h2{
+    margin-top: -1em;
+}
+.card p{
+    margin-top: 1rem;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    /* STYLES HERE  for mobile*/ 
+    .nav-items{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .left h1{
+        font-size: 2.8rem;
+    }
+    .left p{
+        font-size: 1.4rem;
+    }
+    .main-img{
+        width: 25rem;
+        margin-bottom: 2rem;
+    }
+
+    .main2{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-left: 4rem;
+        /* flex-direction: column-reverse; */
+        flex-wrap: wrap-reverse;
+    }
+    .main2-img{
+        width: 25rem;
+        margin-right: 5rem;
+    }
+    .heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+    .main-data{
+        width: 50%;
+        margin-top: 3rem;
+    }
+    .data>h2{
+        margin-bottom: 1rem;
+    }
+    .data>h2::before{
+    
+    }
+    .data{
+        margin-bottom: 1.5rem;
+    }
+
+    /* cards */
+    .heading3{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 868px) { 
+    /* STYLES HERE Tab */
+    body{
+        overflow-x: hidden;
+    }
+    .nav-items{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .left h1{
+        font-size: 2.8rem;
+    }
+    .left p{
+        font-size: 1.4rem;
+    }
+    .main-img{
+        width: 25rem;
+        margin: 2rem auto;
+    }
+
+    .main2{
+        display: flex;
+        justify-content: center;
+        margin:auto;
+        margin-left: 4rem;
+        flex-wrap: wrap-reverse;
+    }
+    .main2-img{
+        width: 30rem;
+        margin-right: 5rem;
+    }
+    .heading{
+        margin-top: 3.5rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+    .main-data{
+        width: 50%;
+        margin-top: 3rem;
+
+    }
+    .data>h2{
+        margin-bottom: 1rem;
+    }
+    .data{
+        margin-bottom: 1.5rem;
+    }
+
+    /* cards */
+    .heading3{
+        font-size: 1rem;
+    }
+    
+}
+
+@media screen and (min-width: 869px) {
+    nav{
+        background-color: #7030cc;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nav-items{
+        display: flex;
+    }
+    .navitem{
+        margin-left: 3rem;
+        color: white;
+        font-size: 1.2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .main-btn{
+        padding: 0.8rem 2rem;
+        background-color: #1bbcef;
+        border: none;
+        color: white;
+    }
+    main{
+        display: flex;
+        background-color: #7030cc;
+        color: white;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    .main-img{
+        width: 40rem;
+        margin-bottom: 4rem;
+    }
+    .left h1{
+        margin: 3rem;
+        font-size: 4rem;
+    }
+    .left p{
+        margin: 3rem;
+        width: 70%;
+        font-size: 1.3rem;
+    }
+    
+    /* Main 2 section */
+    
+    .main2{
+        display: flex;
+        justify-content: space-around;
+    }
+    .main2-img{
+        width: 35rem;
+    }
+    .heading{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-size: 1.3rem;
+    }
+    .main-data{
+        width: 50%;
+        margin-top: 3rem;
+    }
+    .data>h2{
+        margin-bottom: 1rem;
+    }
+    .data>h2::before{
+    
+    }
+    .data{
+        margin-bottom: 1.5rem;
+    }
+    
+    /* main 3 -- features */
+    .main3{
+        height: 30rem ;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-basis:0;
+        flex-grow: 1;
+        margin-top: 4rem;
+    }
+    .card{
+        background-color: #f2f2f2;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        height: 15rem;
+        width: 15rem;
+        box-shadow: #7030cc 0px 5px 15px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .card-one img{
+     position: relative;
+     bottom: 3.7rem;
+     left: -.5rem;
+    
+    }
+    .card-two img{
+     position: relative;
+     bottom: 3.6rem;
+     left: -.5rem;
+    
+    }
+    .card-three img{
+     position: relative;
+     bottom: 3.6rem;
+     left: -.4rem;
+    
+    }
+    .card-four img{
+     position: relative;
+     bottom: 3.6rem;
+     left: -.4rem;
+    
+    }
+    
+    
+    .icon-bg{
+        background-color:#dbc1ff;
+        margin-left: 4.6rem;
+        margin-top: 1rem;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 4;
+    }
+    
+    .heading3{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .main3 img{
+        width: 40px;
+    }
+    
+    
+    .card h2{
+        margin-top: -1em;
+    }
+    .card p{
+        margin-top: 1rem;
+    }
+}
